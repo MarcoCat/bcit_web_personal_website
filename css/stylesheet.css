@@ -3,7 +3,11 @@ body{
 }
 
 h1{
-    color: gray
+    color: red;
+}
+
+.index_heading{
+    font-family: Montserrat, sans-serif;
 }
 
 h2{
@@ -12,4 +16,17 @@ h2{
 
 p{
     color: black
+}
+
+nav
+{
+    background-color: lightblue;
+}
+
+.navigation{
+    text-align: center;
+}
+
+ul{
+    display:inline-block;
 }
