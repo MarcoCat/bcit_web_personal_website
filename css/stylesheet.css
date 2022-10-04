@@ -6,10 +6,6 @@ h1{
     color: red;
 }
 
-.index_heading{
-    font-family: Montserrat, sans-serif;
-}
-
 h2{
     color: gray
 }
@@ -23,10 +19,14 @@ nav
     background-color: lightblue;
 }
 
+ul{
+    display:inline-block;
+}
+
 .navigation{
     text-align: center;
 }
 
-ul{
-    display:inline-block;
+.index_heading{
+    font-family: Montserrat, sans-serif;
 }
