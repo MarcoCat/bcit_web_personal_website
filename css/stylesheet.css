@@ -8,6 +8,14 @@ p {
     color: #334259;
 }
 
+h1{
+    font-size: 300%;
+}
+
+h2{
+    font-size: 200%;
+}
+
 header,
 footer {
     background-color: #A6CAD4;
