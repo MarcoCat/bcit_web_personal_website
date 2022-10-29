@@ -1,23 +1,36 @@
-body{
+body {
     background-color: #EDDDD0;
 }
 
-h1, h2, p{
+h1,
+h2,
+p {
     color: #334259;
 }
 
-header, footer{
+header,
+footer {
     background-color: #A6CAD4;
+    display: grid;
+    justify-content: center;
 }
 
-ul{
-    display:inline-block;
-}
-
-.navigation{
+header h1{
     text-align: center;
+    width: 100%;
 }
 
-#main_title{
+header ul{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+header li{
+    list-style: none;
+    padding: 0.5em;
+}
+
+#main_title {
     font-family: Montserrat, sans-serif;
 }
