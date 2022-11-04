@@ -16,11 +16,15 @@ h2 {
     font-size: 200%;
 }
 
-header,
-footer {
+header{
     background-color: #A6CAD4;
     display: grid;
     justify-content: center;
+}
+
+footer{
+    background-color: #A6CAD4;
+    text-align: center;
 }
 
 header h1 {
@@ -39,6 +43,15 @@ header li {
     list-style: none;
     padding: 0.5em;
     text-align: center;
+}
+
+.course_list ul li + li{
+    border-top: solid 2px gray;
+}
+
+.course_list ul{
+    list-style-type: none;
+    padding: 0px;
 }
 
 #main_title {
