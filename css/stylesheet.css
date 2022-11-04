@@ -32,11 +32,13 @@ header ul {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 0px
 }
 
 header li {
     list-style: none;
     padding: 0.5em;
+    text-align: center;
 }
 
 #main_title {
