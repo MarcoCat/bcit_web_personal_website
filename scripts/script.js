@@ -5,21 +5,20 @@ courseList = [
     ];
     
 let user_input = null;
-let flag = false
+let flag = false;
 
 do{
-    user_input = prompt('Enter a 4 digit code: ')
+    user_input = prompt('Enter a 4 digit code: ');
 } while(isNaN(Number(user_input)) || user_input.length !== 4);
 
 for(course of courseList){
     if (course['code'].includes(user_input)){
-        console.log(`Yes I am taking the course: ${course['code']} – ${course['name']}`)
-        flag = true
+        console.log(`Yes I am taking the course: ${course['code']} – ${course['name']}`);
+        flag = true;
     }
 }
 
 if (flag == false){
-    courseList.push({code: user_input, name: null})
+    courseList.push({code: user_input, name: null});
+    console.log('Success');
 }
-
-console.log('Success')
